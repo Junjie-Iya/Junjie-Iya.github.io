@@ -40,3 +40,44 @@
   font-size: 0.95rem;
   color: #444;
 }
+
+.timeline {
+  border-left: 3px solid #3498db;
+  margin-left: 1rem;
+  padding-left: 1rem;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: 0;
+  width: 18px;
+  height: 18px;
+  background-color: #3498db;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+.timeline-date {
+  font-weight: bold;
+  color: #3498db;
+  margin-bottom: 0.3rem;
+}
+
+.timeline-content h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #222;
+}
+
+.timeline-content p {
+  margin: 0.3rem 0;
+  color: #555;
+  font-size: 0.95rem;
+}
