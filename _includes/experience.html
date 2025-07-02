@@ -1,22 +1,23 @@
 <section class="section experience">
   <div class="section__title">Experience</div>
-  <div class="timeline">
-    <div class="timeline-item">
-      <div class="timeline-date">2021 - Present</div>
-      <div class="timeline-content">
-        <h3>Autonomous Driving Software Engineer</h3>
-        <p>Developed trajectory planning algorithms using C++ and Python, focusing on real-time path optimization for autonomous vehicles.</p>
-        <p><strong>Company:</strong> SomeTech Inc.</p>
+  <div class="section__content">
+    <div class="jobs">
+      {% for job in site.data.experience %}
+      <div class="job">
+        <div class="time-place">
+          <div class="job__company">
+            <a href="{{ job.url }}" target="_blank" rel="noopener">{{ job.company }}</a>
+          </div>
+          <div class="job__time">{{ job.time }}</div>
+        </div>
+        <div class="job__position">{{ job.position }}</div>
+        {% if job.description %}
+        <div class="job__description">{{ job.description }}</div>
+        {% endif %}
       </div>
+      {% endfor %}
     </div>
-    <div class="timeline-item">
-      <div class="timeline-date">2019 - 2021</div>
-      <div class="timeline-content">
-        <h3>Machine Learning Engineer Intern</h3>
-        <p>Implemented and optimized deep learning models for perception tasks in autonomous driving.</p>
-        <p><strong>Company:</strong> AI Labs</p>
-      </div>
-    </div>
-    <!-- 你可以按格式继续添加更多经历 -->
+
+    <a href="{{ site.resume }}" target="_blank" class="arrow-link">View My Resume</a>
   </div>
 </section>

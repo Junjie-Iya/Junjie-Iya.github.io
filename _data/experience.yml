@@ -1,0 +1,11 @@
+- company: SomeTech Inc.
+  url: https://sometech.example.com
+  time: "2021 - Present"
+  position: Autonomous Driving Software Engineer
+  description: "Developed trajectory planning algorithms using C++ and Python, focusing on real-time path optimization for autonomous vehicles."
+
+- company: AI Labs
+  url: https://ailabs.example.com
+  time: "2019 - 2021"
+  position: Machine Learning Engineer Intern
+  description: "Implemented and optimized deep learning models for perception tasks in autonomous driving."
