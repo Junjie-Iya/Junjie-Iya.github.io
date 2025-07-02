@@ -1,11 +1,11 @@
-- company: SomeTech Inc.
+- company: XPENG Motors
   url: https://sometech.example.com
-  time: "2021 - Present"
-  position: Autonomous Driving Software Engineer
-  description: "Developed trajectory planning algorithms using C++ and Python, focusing on real-time path optimization for autonomous vehicles."
+  time: "2023.11 - 2025.05"
+  position: Senior Planning Software Engineer
+  description: "Trajectory planning for urban autonomous driving, focusing on complex scenarios and multi-agent interactions."
 
-- company: AI Labs
+- company: SAIC General Motors
   url: https://ailabs.example.com
-  time: "2019 - 2021"
-  position: Machine Learning Engineer Intern
-  description: "Implemented and optimized deep learning models for perception tasks in autonomous driving."
+  time: "2021.11 - 2023.11"
+  position: Intelligent Driving Software Engineer
+  description: "Automated parking software development, Simulation and validation platform development."

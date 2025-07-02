@@ -74,12 +74,12 @@
   display: flex;
   justify-content: space-between;
   font-weight: 600;
-  color: #3498db;
+  color: #444;
   margin-bottom: 0.3rem;
 }
 
 .job__company a {
-  color: #3498db;
+  color: #444;
   text-decoration: none;
 }
 
