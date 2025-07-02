@@ -113,3 +113,10 @@
 .arrow-link:hover {
   border-color: #3498db;
 }
+
+.section-divider {
+  border: none;
+  height: 1px;
+  background-color: #ccc;
+  margin: 2rem 0;
+}
